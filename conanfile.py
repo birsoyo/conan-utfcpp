@@ -5,13 +5,13 @@ from conans import ConanFile, tools
 
 class UtfcppConan(ConanFile):
     name = 'utfcpp'
-    version = '2.3.5'
+    version = '2.3.6'
     description = 'UTF-8 with C++ in a Portable Way.'
     url = 'https://github.com/birsoyo/conan-utfcpp'
     homepage = 'https://github.com/nemtrif/utfcpp'
     author = 'Orhun Birsoy <orhunbirsoy@gmail.com>'
 
-    license = '<Indicates License type of the packaged library>'
+    license = 'Boost'
 
     no_copy_source = True
 
